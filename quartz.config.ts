@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "yodg.netlify.app",
-    ignorePatterns: ["private", "z-templates", ".obsidian"],
+    ignorePatterns: ["private", "z-templates", "Templates", ".obsidian"],
     defaultDateType: "published",
     theme: {
       fontOrigin: "googleFonts",

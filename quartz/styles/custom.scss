@@ -37,3 +37,8 @@ h4 {
 .folder-container div > a {
   font-size: inherit;
 }
+
+figure:has(code[data-language^="dataview"]) {
+  /* matches dataview, dataviewjs, etc. */
+  display: none;
+}
