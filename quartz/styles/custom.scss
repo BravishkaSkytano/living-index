@@ -38,7 +38,11 @@ h4 {
   font-size: inherit;
 }
 
-figure:has(code[data-language^="dataview"]) {
-  /* matches dataview, dataviewjs, etc. */
+// figure:has(code[data-language^="dataview"]) {
+//   /* matches dataview, dataviewjs, etc. */
+//   display: none;
+// }
+
+article h1 {
   display: none;
 }

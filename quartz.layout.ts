@@ -8,7 +8,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/BravishkaSkytano/living-index"
+      GitHub: "https://github.com/BravishkaSkytano/living-index",
     },
   }),
 }
@@ -20,6 +20,7 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.Breadcrumbs(),
       condition: (page) => page.fileData.slug !== "index",
     }),
+    Component.BannerImage(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),

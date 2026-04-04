@@ -9,4 +9,10 @@ const Content: QuartzComponent = ({ fileData, tree }: QuartzComponentProps) => {
   return <article class={classString}>{content}</article>
 }
 
+Content.css = `
+article {
+  clear: both;
+}
+`
+
 export default (() => Content) satisfies QuartzComponentConstructor
